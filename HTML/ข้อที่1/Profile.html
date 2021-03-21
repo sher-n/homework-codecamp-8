@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SherProfile</title>
+    <style>
+        body {
+
+            margin: 50px;
+        }
+        .profilepic {
+            width: 300px;
+            height: auto;
+            float: left;
+            margin-right: 50px;
+            margin-top: 50px;
+        }
+        .hobbiespic {
+            width: 150px;
+            height: auto;
+        }
+
+        button {
+            float: left;
+            margin-top: 0px;
+            margin-right: 20px;
+            padding: 20px;
+            font-size: 20px;
+         
+         
+        }
+
+    </style>
+</head>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <p>    1. สร้างหน้า index.html เป็น homepage 
+        - มีภาพที่แสดงความเป็นตัวเอง และ motto ประจำตัว
+        - มี link เข้าสู่หน้า profile และ friend 
+        2. สร้างหน้า profile.html เพื่อแสดงประวัติตัวเอง 
+            - มีรูปตัวเอง / avatar และข้อมูลเบื้องต้น เช่น
+        - ชื่อ-นามสกุล,​ ชื่อเล่น, ชื่อกลุ่ม,​ ภูมิลำเนา, 
+        - ความถนัด, งานอดิเรกที่ชอบ (ให้มีภาพประกอบด้วย)
+        - มี link ไปยัง 2 หน้าที่เหลือ (index.html + friends.html)
+        3. สร้าง friends.html เพื่อแสดงรายชื่อเพื่อนใน codecamp#5 ทั้งหมด
+        - ชื่อ-นามสกุล,​ ชื่อเล่น,เลขที่, ชื่อกลุ่ม,​ เบอร์โทร, site(github.io) 
+        - มี link ไปยัง 2 หน้าที่เหลือ (index.html + profile.html)
+        4. เมื่อเรียบร้อยแล้ว ให้ส่ง web site นี้ขึ้น github.io ของตัวเอง</p>
+    
+    <h1>Welcome to my profile!</h1>
+    <img class="profilepic" src="https://scontent.fbkk12-4.fna.fbcdn.net/v/t31.0-8/12496064_771942646239556_3136112453626536109_o.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=o-lFenBuJ18AX8nQ0tt&_nc_ht=scontent.fbkk12-4.fna&oh=ee60f6d2a9a8ab4a9f173dcf03158ce8&oe=607E3ECC" alt="myprofile">
+    <div style="padding: 10px; background-color:rgb(226, 240, 174);">
+        <h3>About me</h3>
+            <span><b>Name :</b></span><span> Sher Janmathong</span><br><br>
+            <span><b>Nickname :</b></span><span> Sher</span><br><br>
+            <span><b>Age:</b></span><span> 26 </span><br><br>
+            <span><b>Group :</b></span><span> CodeCamp Javascript #8</span><br><br>
+            <p><b>Hobbies :</b></p>
+    
+                <table>
+                    <tr>
+                        <td>Reading</td>   
+                        <td>Basketball</td>   
+                        <td>Playing Games</td>   
+
+                    </tr>
+                    <tr>
+                        <td><img class="hobbiespic" src="https://online.merrimack.edu/wp-content/uploads/2019/04/MCMED_5-Reasons-REading-is-So-Important-to-Student-Success.jpg" ></td>   
+                        <td><img class="hobbiespic" src="https://res.cloudinary.com/grohealth/image/upload/v1581678662/DCUK/Content/iStock-959080376.jpg" ></td>   
+                        <td><img class="hobbiespic" src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_667,w_1000,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/shutterstock_663218446_zmtg4l.jpg" ></td>   
+
+                    </tr>
+                </table>
+
+    </div>
+    
+    <div style="margin-top: 40px;">
+        <button>My Friend lists</button>
+        <button>Homepage</button>
+    </div>
+
+</body>
+</html>
