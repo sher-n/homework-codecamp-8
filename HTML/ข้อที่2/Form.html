@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
+    <style>
+        body {
+           font-family: Verdana, Geneva, Tahoma, sans-serif; 
+           font-weight: bold;
+        }
+
+        .number {
+            width: 40%;
+        }
+
+        .search {
+            background-color: tomato;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        input:hover {color: salmon; background-color: seashell;}
+        
+        select:hover {color: salmon; background-color: seashell;}
+
+    </style>
 </head>
 <body>
-    <table>
+    <form action="/action_page.php">
+    <table style="width: 25%">
         <tr>
-            <td><form action="/action.page">
+            <td colspan="2">
             <label for="city">Flying From</label>
             <br><br><select id="city" name="city">
                 <option value="Bangkok">Bangkok</option>
@@ -17,17 +42,17 @@
                 <option value="Chiangmai">Chiangmai</option>
                 <option value="Nan">Nan</option>
               </select>
-        </form></td>
+            </td>
             
-            <td><form action="/action.page">
-                <label for="city">To</label>
+            <td>
+                <label colspan="2" for="city">To</label>
                 <br><br><select id="city" name="city">
                     <option value="Bangkok">Bangkok</option>
                     <option value="Krabi">Krabi</option>
                     <option value="Chiangmai">Chiangmai</option>
                     <option value="Nan">Nan</option>
                   </select>
-            </form></td>
+            </td>
     
         </tr> 
         <tr>
@@ -37,16 +62,16 @@
             <td></td>
         </tr> 
         <tr>
-            <td><form action="">
-                <label for="">Departuring</label>
+            <td colspan="2">
+                <label for="date">Departuring</label>
                 <br><br>
                 <input type="date">
-            </form></td>
-            <td><form action="">
-                <label for="">Returning</label>
+            </td>
+            <td colspan="2">
+                <label for="date">Returning</label>
                 <br><br>
                 <input type="date">
-            </form></td>
+            </td>
         </tr> 
         <tr>
             <td><br></td>
@@ -56,16 +81,34 @@
 
         </tr> 
         <tr>
-            <td><form action="">
-                <label for="">Adults</label>
+            <td colspan="1">
+                <label for="adultnumber">Adults</label>
                 <br><br>
-                <input type="number" placeholder="0">
-            </form></td>
-            <td>Child</td>
-            <td>Infant</td>
-            <td>Currency</td>
+                <input class="number" type="number" placeholder="0">
+            </td>
+            <td colspan="1">
+                <label for="childnumber">Child</label>
+                <br><br>
+                <input class="number" type="number" placeholder="0">
+            </td>
+            <td colspan="1">
+                <label for="infantnumber">Infant</label>
+                <br><br>
+                <input class="number" type="number" placeholder="0">
+            </td>
+            <td>
+                <label style="color: rgb(231, 76, 76);" for="currencytype">Currency</label>
+                <br><br>
+                <select id="currency" name="currency">
+                    <option value="USD">USD</option>
+                    <option value="THB">THB</option>
+                    <option value="YEN">YEN</option>
+                    <option value="EUR">EUR</option>
+                  </select>
+            </td>
         </tr> 
+        
  
-    </table>
+    </table><br><input class="search" type="submit" value="SEARCH"></form>
 </body>
 </html>
