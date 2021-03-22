@@ -7,15 +7,17 @@
     <title>SherProfile</title>
     <style>
         body {
-
+            display: block;
             margin: 50px;
-        }
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+       }
         .profilepic {
-            width: 300px;
+            width: 400px;
             height: auto;
-            float: left;
-            margin-right: 50px;
-            margin-top: 50px;
+            margin: 50px;
         }
         .hobbiespic {
             width: 150px;
@@ -23,13 +25,10 @@
         }
 
         button {
-            float: left;
-            margin-top: 0px;
-            margin-right: 20px;
+        
             padding: 20px;
             font-size: 20px;
-         
-         
+            
         }
 
     </style>
@@ -49,8 +48,9 @@
         4. เมื่อเรียบร้อยแล้ว ให้ส่ง web site นี้ขึ้น github.io ของตัวเอง</p>
     
     <h1>Welcome to my profile!</h1>
+ 
     <img class="profilepic" src="https://scontent.fbkk12-4.fna.fbcdn.net/v/t31.0-8/12496064_771942646239556_3136112453626536109_o.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=o-lFenBuJ18AX8nQ0tt&_nc_ht=scontent.fbkk12-4.fna&oh=ee60f6d2a9a8ab4a9f173dcf03158ce8&oe=607E3ECC" alt="myprofile">
-    <div style="padding: 10px; background-color:rgb(226, 240, 174);">
+    <div style="position:absolute; padding: 10px; background-color:rgb(226, 240, 174);">
         <h3>About me</h3>
             <span><b>Name :</b></span><span> Sher Janmathong</span><br><br>
             <span><b>Nickname :</b></span><span> Sher</span><br><br>
@@ -72,13 +72,15 @@
 
                     </tr>
                 </table>
-
-    </div>
     
-    <div style="margin-top: 40px;">
-        <button><a href="Friend.html" style="text-decoration: none;">My Friend Lists</a></button>
-        <button><a href="Index.html" style="text-decoration: none;">Home</a></button>
+                <div>
+                    <table>
+                        <td><a href="index.html"><button>Homepage</button></a></td>
+                        <td><a href="Friend.html"><button>My friend lists</button></a></td>
+                    </table>
+                </div>
     </div>
+   
 
 </body>
 </html>
