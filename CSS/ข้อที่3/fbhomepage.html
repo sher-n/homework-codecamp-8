@@ -21,57 +21,162 @@
     .bigcontainer1 {
         display: flex;
         flex-wrap: wrap;
-        width: 100vw;
-        margin: 5vh 5vw;
+        width: 100%;
+        margin: 0px 40px;
+        font-family: inherit;
 
     }
 
     .con1 {
         display: flex;
         flex-direction: column;
-        padding: 20px;
-        
+        justify-content: center;
+        padding: 10px;
+        font-size: 25px;
+        width: 400px;
+        height: 30vh;
+        text-align: center;
+        margin: 0px 95px 0px 95px;
     }
+
+    .con1 > * {
+        margin: 0px;
+    }
+
     .center {
         display: flex;
         justify-content: center;
         margin: 5px;
+        
     }
     .con2 {
-        width: 50vw;
         align-content: center;
         flex-direction: column;
-        
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        width: 396px;
+        margin: 20px 95px 21px 95px;
+        height: 352px;
+        margin-bottom: 10px;
 
     }
     
-
-    .con2 > .userp {
+    .con2 > * {
         padding: 20px;
         background-color: white;
         box-shadow: 1px 1px 1px 1px 8px #888888;
         border-radius: 10px;
-        
-    }
-    .mini1 > * {
-        display: block;
-        width: 100%;
-        margin: 5px;
+        font-family: inherit;
         font-size: 19px;
-        justify-content: center;
+        height: 100%;
+        
+        
     }
 
-    .buildpage  {
+    .mini1 > * {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0px;
+        font-size: 19px;
+        border-radius: 10px;
+        border-collapse: collapse;
+    }
+
+    .mini2 * {
+        background-color: #1877f2;
+        border: none;
+        border-radius: 6px;
+        font-size: 22px;
+        line-height: 48px;
+        padding: 0 16px;
+        width: 332px;
+        color: white;
+        margin: 5px 0px;
+    }
+
+    .mini3 * {
+        color: #1877f2;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 5px 0px;
+    }
+
+    .mini4 {
+        margin-top: 0px;
+    }
+
+    .mini4 * {
+        border: none;
+        border-radius: 6px;
+        font-size: 19px;
+        line-height: 48px;
+        padding: 0 16px;
+        background-color: #42b72a;
+        color: white;
+    }
+    
+    .line {
+        padding: 10px;
+        margin: 5px 0px;
+    }
+
+    .buildpage {
+        padding: 20px;
         display: flex;
         justify-content: center;
-        
+        margin: 0px 95px 40px 95px;
+    }
+    
+    .bottomcontainer {
+        display: block;
+        width: auto;
+        margin: 0px;
+        padding: 0px 40px;
+        background-color: white;
+        font-size: 14px;
+    }
+    .bot1 {
+        display: block;
+        margin: 10px auto 5px 0px;
+
+    }
+    .bot1 * {
+        display: inline;
+    }
+
+    .bot3 * {
+        display: inline-block;
+        word-spacing: 1em;
+    }
+    .bot4 {
+        display: block;
+        margin-top: 10px;
     }
         img {
         width: 312px;
         margin: 10px;
         }
+    li:hover {
+        text-decoration: underline;
+    }
 
-       
+    @media only screen and (min-width: 700px) {
+     .bigcontainer1 {
+        margin: 80px 40px;
+     }
+     .con1 > * {
+        text-align: left;
+     }
+     .fbpic >  * {
+        margin-top: 50px;
+     }
+     .con2 {
+         margin-top: 40px;
+     }
+    }
 
 
 
@@ -79,13 +184,14 @@
 <body>
     <div class="bigcontainer1" >
       <div class="con1">
-        <div>
+        <div class="fbpic">
             <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
         </div>    
         <div>
             <p>Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</p>
         </div>
       </div>
+      <div class="bigcontainer2">
       <div class="con2">
         <div class="userp">
         <form action="">
@@ -99,22 +205,60 @@
             <div class="center mini3">
                 <a href="">ลืมรหัสผ่านใช่หรือไม่</a>
             </div>
-            <hr>   
+            <div class="line"><hr></div>
             <div class="center mini4">
                 <a href="#"><button>สร้างบัญชีใหม่</button></a>
             </div>
         </form>
         </div>
-        <div class="buildpage">
+      </div>
+      <div class="buildpage">
             <a href="">สร้างเพจ</a>
             <p>สำหรับบุคคลมีชื่อเสียง วงดนตรี หรือธุรกิจ</p>
         </div>
-      </div>
+    </div>
     </div>
     <div class="bottomcontainer">
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
+        <div class="bot1">
+            <ul>
+                <li>ภาษา1</li>
+                <li>ภาษา2</li>
+                <li>ภาษา3</li>
+                <li>ภาษา4</li>
+                <li>ภาษา5</li>
+                <li>ภาษา6</li>
+                <li>ภาษา7</li>
+                <li>ภาษา8</li>
+                
+            </ul>
+        </div>
+        <div class="bot2"><hr></div>
+        <div class="bot3">
+            <ul>
+                <li>สมัคร</li>
+                <li>เข้าสู่ระบบ</li>
+                <li>Messenger</li>
+                <li>Facebook Lite</li>
+                <li>Watch</li>
+                <li>ผู้คน</li>
+                <li>เพจ</li>
+                <li>หมวดหมู่</li>
+                <li>สถานที่</li>
+                <li>เกม</li>
+                <li>ตำแหน่งที่ตั้ง</li>
+                <li>Marketplace</li>
+                <li>Facebook</li>
+                <li>Pay</li>
+                <li>กลุ่มงาน</li>
+                <li>Oculus</li>
+                <li>Portal</li>
+                <li>Instagram</li>
+                <li>ในพื้นที่โครงการระดมทุน</li>
+                <li>บริการศูนย์ข้อมูล</li>
+                </ul>
+        </div>
+        
+        <div class="bot4">Facebook © 2021</div>
     </div>
   </body>
 </html>
