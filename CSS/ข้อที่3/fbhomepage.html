@@ -4,84 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook-เข้าสู่ระบบหรือสมัครเข้าใช้งาน</title>
 </head>
 <style>
-        * {
+    * {
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
-        font-family: Helvetica, Arial, sans-serif;
-        }
-        .bigcontainer {
-        display: flex;
-        flex: 1 1 100%;
-        }
+    }
 
-        .con1 {
-            display: flex;
-            flex-direction: column;
-            margin: 50px;
-            font-size: 3vw;
-        }
-        .con2 {
-        background-color: gray;
+    body {
+        font-family: Helvetica, sans-serif;
+        background-color: rgba(128, 128, 128, 0.096);
+    }
+
+    .bigcontainer1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: 5vh 5vw;
+
+    }
+
+    .con1 {
         display: flex;
         flex-direction: column;
-        text-align: center;
-        }
-
-        .con2 * {
+        padding: 20px;
+        
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    .con2 {
+        width: 50vw;
+        align-content: center;
         flex-direction: column;
-        font-size: 20px;
-        width: 90%;
-        margin: 10px;
-        padding: 10px;
+        
 
-        }
+    }
+    
 
+    .con2 > .userp {
+        padding: 20px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px 8px #888888;
+        border-radius: 10px;
+        
+    }
+    .mini1 > * {
+        display: block;
+        width: 100%;
+        margin: 5px;
+        font-size: 19px;
+        justify-content: center;
+    }
 
+    .buildpage  {
+        display: flex;
+        justify-content: center;
+        
+    }
         img {
         width: 312px;
         margin: 10px;
         }
 
-        .mini1 > * {
-            text-align: left;
-        }
        
 
 
 
 </style>
 <body>
-    <div class="bigcontainer" >
+    <div class="bigcontainer1" >
       <div class="con1">
-        <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
-        <p>Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</p>
+        <div>
+            <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+        </div>    
+        <div>
+            <p>Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</p>
+        </div>
       </div>
       <div class="con2">
+        <div class="userp">
         <form action="">
             <div class="mini1">
                 <input type="text" placeholder="อีเมล์หรือหมายเลขโทรศัพท์มือถือ" />
                 <input type="text" placeholder="รหัสผ่าน" />
             </div>
-            <div class="mini2">
+            <div class="center mini2">
                 <input  type="submit" value="เข้าสู่ระบบ"/>
             </div>
-            <div class="mini3">
+            <div class="center mini3">
                 <a href="">ลืมรหัสผ่านใช่หรือไม่</a>
             </div>
-        
-            <hr>
-            
-            <div class="mini4">
+            <hr>   
+            <div class="center mini4">
                 <a href="#"><button>สร้างบัญชีใหม่</button></a>
             </div>
         </form>
-       
+        </div>
+        <div class="buildpage">
+            <a href="">สร้างเพจ</a>
+            <p>สำหรับบุคคลมีชื่อเสียง วงดนตรี หรือธุรกิจ</p>
+        </div>
       </div>
     </div>
-    <div class="bottomcontainer"></div>
+    <div class="bottomcontainer">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
   </body>
 </html>
