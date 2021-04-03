@@ -8,15 +8,16 @@
 </head>
 <body>
     <script>
+
         function sumInput() {
-            let value = prompt("Enter input");
+            let value = Number(prompt("Enter input"));
             let arr = [];
-            while (typeof value === "number") {
+            while (!isNaN(value)) {
                 arr.push(value)
-                value = prompt("Enter input")
-            }   
+                value = Number(prompt("Enter input"))
+            }
             
-              return arr
+              return arr.reduce((a,b) => a + b)
         }
     </script>
 </body>
