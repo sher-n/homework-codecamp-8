@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+        
+        function removeAna(str1, str2) {
+        let a = new Set(str1.split("").filter(x => str2.indexOf(x) !== -1));
+        let b = Array.from(a)
+        return  b.join("")
+}
+
+        function aclean(array1) {
+
+        let a = array1.filter(x => x == x.toLowerCase().split("").sort().join(""));
+        let b = new Set(a)
+        return b;
+
+
+        }
+    </script>
+</body>
+</html>
