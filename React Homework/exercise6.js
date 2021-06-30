@@ -3,7 +3,7 @@
 let worker = {
     calls: [],
     work(a, b) {
-        console.log( a + b ); // work จะเป็น ฟังก์ชัน หรือ method ก็ได้
+        console.log( a + b ); 
         this.calls.push([a,b]);
       }
     }
@@ -11,12 +11,11 @@ let worker = {
 function spy(func, hash) {
     let cache = new Map();
     return function() {
-        let key = hash(arguments); // arguments มีค่า [3,5]
+        let key = hash(arguments); 
         if (cache.has(key)) {
         return cache.get(key);
         }
         let result = func.call(this, ...arguments); 
-    // ...arguments กระจาย 3,5 ออกจาก [3,5]
         cache.set(key, result);
         return result;
     };
@@ -34,3 +33,29 @@ function spy(func, hash) {
       for (let args of worker.calls) {
         alert( 'call:' + args.join() ); // "call:1,2", "call:4,5"
       }
+      
+// ข้อ 2 ให้สร้าง decorator ฟังก์ชัน ชื่อ delay () รับค่า argument 2 ตัว
+//เป็น f และ เวลาในการ delay เป็นหน่วย มิลลิวินาที 
+
+      function delay (func, ms){
+        let cache = new Map();
+        if (cache.has(x)) {
+           return function() {
+            setTimeout(() => caches.get(x) ,ms) 
+        }
+        }
+        let result = func(x); // (**)
+            cache.set(x, result);
+        return function() {
+        setTimeout(() => result ,ms)
+        }
+        }
+      function f(x) {
+        alert(x);
+        }
+        // ให้สร้าง decorator ฟังก์ชันที่ ครอบ f ฟังก์ชัน
+        let f1000 = delay(f, 1000);
+        let f1500 = delay(f, 1500);
+        f1000("test"); // แสดง "test" หลังจาก 1000ms
+        f1500("test"); // แสดง "test" หลังจาก 1500ms
+        
