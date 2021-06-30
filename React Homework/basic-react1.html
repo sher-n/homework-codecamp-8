@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script>
+    const rootElement = document.getElementById("root")
+    const element = React.createElement(
+      "div",
+      {
+        className: "hello-react-text"
+      },
+      React.createElement(
+    'h1',
+    {color: 'green'},
+    'Resume'
+  ),
+  React.createElement(
+    'h2',
+    {color: 'black'},
+    'Sher'
+  ),
+React.createElement(
+    'p',
+    {color: 'black'},
+    'สีที่ชอบ เขียว'
+  ),
+React.createElement(
+    'p',
+    {color: 'black'},
+    'ส่วนสูง 176 cm'
+  ),
+React.createElement(
+    'p',
+    {color: 'black'},
+    'น้ำหนัก 76 kg.'
+  ),
+React.createElement(
+    'p',
+    {color: 'black'},
+    'คำคมที่ชอบ do everything that scares you...'
+  )
+    )
+      
+
+
+
+
+    ReactDOM.render(
+      element,
+      rootElement
+    )
+    
+  </script>
+</body>
+</html>
