@@ -1,7 +1,12 @@
 <!-- ให้สร้าง ตัวแปร มาเก็บค่า array [“a”, “b”, “c”, “d”, “e”] 
 นำ array มา map แล้ว แสดงผลเป็น list
 ใน <li> </li> ไม่ต้องใส่ key
-เปิด Console.log ใน browser สังเกตุ warning ที่เกิดขึ้น  -->
+เปิด Console.log ใน browser สังเกตุ warning ที่เกิดขึ้น 
+
+สรุป
+ที่ได้คือ react.development.js:245 Warning: 
+Each child in a list should have a unique "key" prop. -->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +28,7 @@
     <div className="container">
     <h1>{a}</h1> 
     <h1>{[...a].map(x => <li>{x}</li>)}</h1> 
+
     </div>
 
     ReactDOM.render(
