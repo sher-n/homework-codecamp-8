@@ -1,0 +1,36 @@
+<!-- ให้สร้าง ตัวแปร มาเก็บค่า array [“a”, “b”, “c”, “d”, “e”] 
+นำ array มา map แล้ว แสดงผลเป็น list
+ใน <li> </li> ไม่ต้องใส่ key
+เปิด Console.log ใน browser สังเกตุ warning ที่เกิดขึ้น  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="	https://unpkg.com/babel-standalone@7.0.0-beta.3/babel.js"></script>
+  <script type="text/babel">
+    const rootElement = document.getElementById("root")
+    const a = [`a`,`b`,`c`,`d`,`e`] 
+    const element = 
+    <div className="container">
+    <h1>{a}</h1> 
+    <h1>{[...a].map(x => <li>{x}</li>)}</h1> 
+    </div>
+
+    ReactDOM.render(
+      element,
+      rootElement
+    )
+    
+  </script>
+</body>
+</html>
+
