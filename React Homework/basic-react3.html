@@ -1,0 +1,52 @@
+<!-- 
+ให้สร้าง ตัวแปร 5 ตัวแปร (ชื่ออะไรก็ได้)มาเก็บค่า Datatype ชนิดต่าง string, number, boolean, null, undefined 
+ให้สร้าง ตัวแปร 2 ตัวแปร (ชื่ออะไรก็ได้) มาเก็บค่า Data structure เช่น array และ Obj
+นำค่าตัวแปรแต่ละตัวมาใส่ใน <p> </p>
+แสดงผลออกมาบนหน้าเว็บ ของตัวแปรแต่ละตัว
+สังเกตการแสดงผลของตัวแปรแต่ละตัวว่าตัวไหน แสดงผลออกมาได้บ้าง -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="	https://unpkg.com/babel-standalone@7.0.0-beta.3/babel.js"></script>
+  <script type="text/babel">
+    const rootElement = document.getElementById("root")
+    const a = 4
+    const b = 'test'
+    const c = true
+    const d = null
+    const e = undefined
+    const f = ['test2']
+    const g = {
+      test3: 1
+    }
+    //มีแค่ a,b,f ที่แสดงผลออกมาได้
+    const element = 
+    <div className="container">
+    <h1>{a}</h1> 
+    <h1>{b}</h1> 
+    <h1>{c}</h1>
+    <h1>{d}</h1>
+    <h1>{e}</h1>
+    <h1>{f}</h1>
+    </div>
+
+    ReactDOM.render(
+      element,
+      rootElement
+    )
+    
+  </script>
+</body>
+</html>
+
