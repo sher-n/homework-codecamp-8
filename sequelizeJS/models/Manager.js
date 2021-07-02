@@ -7,8 +7,13 @@ module.exports = (sequelize, DataTypes) => {
             type : DataTypes.INTEGER
         }
     },{
-        tableName : 'managers'
+        tableName : 'managers',
+        timestamps: false
     });
-    
+
+    model.associate = models => {
+        model.hasOne(models.Branch, { foreignKey: "manager_id"})
+    }
+
     return model;
 }
