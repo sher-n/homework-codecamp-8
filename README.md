@@ -7,6 +7,10 @@
 | **Topics**  | **Link**|
 |:--:|:--:| 
 | HTML  | https://github.com/sher-n/Homework_codecamp_8/tree/main/HTML |
-| CSS  | xxx |
-| Basic JS | xxx |
-| Advance JS | xxx | 
+| CSS  | https://github.com/sher-n/Homework_codecamp_8/tree/main/CSS |
+| Basic JS | https://github.com/sher-n/Homework_codecamp_8/tree/main/Basic%20JS |
+| Advance JS | https://github.com/sher-n/Homework_codecamp_8/tree/main/Advanced%20JS | 
+| UX/UI | https://github.com/sher-n/Homework_codecamp_8/tree/main/UXUI  | 
+| React | https://github.com/sher-n/Homework_codecamp_8/tree/main/React%20Homework | 
+| Database | https://github.com/sher-n/Homework_codecamp_8/tree/main/Database | 
+| TDD | https://github.com/sher-n/Homework_codecamp_8/tree/main/TDD2 | 
