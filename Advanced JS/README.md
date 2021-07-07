@@ -92,8 +92,9 @@ Exercise JavaScript
 4.Maximal contiguous subarray (**Optional**)
 - ให้เขียนฟังก์ชัน getMaxSubSum(arr) ที่ return ผลรวมของ subarray ที่มากที่สุดที่ติดกัน
 
-* [exercise-10]() - "Exercise Methods ของ Array
+* [exercise-10.1](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise10.1.html) - "Exercise Methods ของ Array
 1.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.map()
+* [exercise-10.2](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise10.2.html) - "Exercise Methods ของ Array
 2.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.filter()"
 * [exercise-11.1]() - "Exercise Map และ Set
 1.ให้ arr เป็น Array สร้าง function ชื่อ unique(arr) ให้คืนค่าเป็น unique items ของ arr
