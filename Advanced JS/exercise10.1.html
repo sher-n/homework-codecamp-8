@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.map()
+
+        // 1.1   array1 = [1, 2, 30, 400]
+        //       array2 [2, 4, 60, 800]
+        array2 = array1.map(x => x * 2);
+
+        // 1.2   array1 = [1, 2, 3, 4]
+        //       array2 ["1", "2", "3", "4"]
+        array2 = array1.map(x => x.toString());
+
+        // 1.3   array1 = [1, "1", 2, {}] 
+        //       array2 ["number", "string", "number", "object"]
+        array2 = array1.map(x => typeof x);
+        // 1.4   array1 = ["apple", "banana", "orange"]
+        //       array2 ["APPLE", "BANANA", "ORANGE"]
+        array2 = array1.map(x => x.toUpperCase());
+        // 1.5   array1 = [
+        //       { name: "apple", age: 14 },
+        //       { name: "banana", age: 18 },
+        //       { name: "watermelon", age: 32 },
+        //     ]
+        //       array2 ["apple", "banana", "watermelon"]
+        array2 = array1.map(x => x.name);
+        // 1.6 array1 = [
+        //       { name: "apple", age: 14 },
+        //       { name: "banana", age: 18 },
+        //       { name: "watermelon", age: 32 },
+        //     ]
+        //     array2 [14, 18, 32]     
+        array2 = array1.map(x => x.age);
+
+        // 1.7 array1 = [
+        //       { name: "apple", surname: "London" },
+        //       { name: "banana", surname: "Bangkok" },
+        //       { name: "watermelon", surname: "Singapore" },
+        //     ]
+        //     array2 ["apple London", "banana Bangkok", "watermelon Singapore"]
+        array2 = array1.map(x => x.name + ' ' + x.surname);
+        // 1.8 array1 = [1,3,4,5,6,7,8]
+        // array2 ["odd", "odd", "even", "odd", "even", "odd", "even"]
+
+        array2 = array1.map(x => x % 2 == 0 ? "even" : "odd");
+
+        // 1.9 array1 = [1, -3, 2, 8, -4, 5]
+        //     array2 [1, 3, 2, 8, 4, 5]
+        array2 = array1.map(x => x > 0 ? x : x * (-1));
+
+        // 1.10 array1 = [100, 200.25, 300.84, 400.3]
+        //      array2 ["100.00", "200.25", "300.84", "400.30"]
+        array2 = array1.map(x => parseFloat(x.toString()).toFixed(2))
+
+        //  1.11 array1 = [
+        //    { name: "apple", birth: "2000-01-01" },
+        //    { name: "banana", birth: "1990-10-01" },
+        //    { name: "watermelon", birth: "1985-12-01" },
+        //      ]
+        //      array2 [
+        //        { name: "apple", birth: "2000-01-01", age: 19 },
+        //        { name: "banana", birth: "1990-10-01", age: 29 },
+        //        { name: "watermelon", birth: "1985-12-01", age: 33 },
+        //      ] 
+        array2 = array1.map(x => ({
+            name: x.name,
+            birth: x.birth,
+            age: (function() {
+                let birth = new Date(x.birth);
+                let check = new Date();
+
+                let milliDay = 1000 * 60 * 60 * 24; // a day in milliseconds;
+
+
+                let ageInDays = (check - birth) / milliDay;
+
+                let ageInYears = Math.floor(ageInDays / 365);
+                return ageInYears
+            })()
+        }));
+            //  1.12 array1 = [
+            //    { name: "apple", birth: "2000-01-01" },
+            //    { name: "banana", birth: "1990-10-10" },
+            //    { name: "watermelon", birth: "1985-12-30" },
+            //  ]
+        //      array2 = [
+                //  "<tr>
+                //    <td>apple</td> 
+                //    <td>01 jan 2000</td>
+                //   </tr>",
+        //          "<tr> <td>banana</td> <td>10 oct 1990</td> </tr>",
+        //          "<tr> <td>watermelon</td> <td>30 dec 1985</td> </tr>",
+        //      ] 
+        array2 = array1.map(x => `<tr>
+                   <td>${x.name}</td> 
+                   <td>${(function() {
+                       let calendar = new Date(x.birth)
+                       let month = ["January", "February", "March", "April", "May", "June",
+"July", "August", "September", "October", "November", "December"];
+                       return `${calendar.getDate()}  ${month[calendar.getMonth]} ${calendar.getUTCFullYear}`
+                   })()}</td>
+                  </tr>`);
+    </script>
+</body>
+
+</html>
