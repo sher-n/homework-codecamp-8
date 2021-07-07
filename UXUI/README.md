@@ -1,4 +1,4 @@
-#### Homework010-UXUI - แบบฝึกหัด UX / UI
+แบบฝึกหัด UX / UI
 
 * [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/UXUI/exercise1.txt) - 01. วิเคราะห์ UX/UI ของเว็บไซต์ แค่หน้าแรก
 * [exercise-02](https://github.com/sher-n/Homework_codecamp_8/blob/main/UXUI/exercise%202.png) - 02. หาเวปที่มีไม่ครบ 6 องค์ประกอบ
