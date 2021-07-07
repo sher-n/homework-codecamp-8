@@ -39,42 +39,42 @@ Exercise JavaScript
 * [exercise-04.5](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise4.5.html) - 
 5.จงเขียนฟังก์ชัน multiplyNumeric(obj, times) โดยถ้า properties นั้นมี value เป็น number 
 ให้คูณ value นั้นด้วย times ถ้าข้อมูลเเป็นอย่างอื่นไม่ต้องทำอะไร"
-* [exercise-05](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise4.2.html) 
+* [exercise-05.1](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise4.2.html) 
 "Exercise Methods ของ Object
 1.การทำงานของ code ดังกล่าวจะได้อะไรออกมา 
-* [exercise-01]() - 
+* [exercise-05.2]() - 
 2.การทำงานของ code ดังกล่าวจะได้อะไรออกมา
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise5.4.html) - 4.ให้ Object ชื่อ ladder มี method ขึ้น และ ลง
+* [exercise-05.4](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise5.4.html) - 4.ให้ Object ชื่อ ladder มี method ขึ้น และ ลง
 - Object ชื่อ ladder สามารถเรียก function แบบนี้ได้
 - ดัดแปลง Object ชื่อ ladder สามารถเรียก function แบบนี้ได้
 "
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise6.1.html) - "Exercise Constructor กับ New
+* [exercise-06.1](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise6.1.html) - "Exercise Constructor กับ New
 1.สร้าง constructor function ที่ใช้สำหรับสร้าง Calculator โดยต้องมี 3 Methods นี้
 - read(): รับค่าจาก propmt สองตัว
 - sum(): ให้คืนค่าจากการบวกกันของตัวแปรสองตัว
 - mul(): ให้คืนค่าจากการคูณกันของตัวแปรสองตัว
 
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise6.2.html) - 2.สร้าง constructor function Accumulator(startingValue)
+* [exercise-06.2](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise6.2.html) - 2.สร้าง constructor function Accumulator(startingValue)
 - โดยที่ Object ดังกล่าวควร เก็บผลรวมไว้ใน property ที่มี key ชื่อว่า value, ค่าเริ่มต้นของ key ชื่อ value นี้ คือ startingValue
 - ฟังก์ชัน read() ควรอ่านค่าจาก propmt() และ เพิ่มค่าที่ใส่เข้ามาใน key ชื่อ value
 พูดง่าย ๆ ก็คือ value คือผลรวมของ prompt โดยเริ่มจาก startingValue
 "
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise7.html) - "Exercise Number
+* [exercise-07](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise7.html) - "Exercise Number
 1.ให้เขียนฟังก์ชัน random(min, max) ที่จะ random เลข float ตั้งแต่ min จนถึง max มาให้เรา (ไม่รวม max)"
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise8.1.html) - "Exercise String
+* [exercise-08.1](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise8.1.html) - "Exercise String
 1.เขียนฟังก์ชัน ucFirst(string) โดยทำคืนค่าเป็น string เดิม แต่ตัวแรกของ string กลายเป็นพิมพ์ใหญ่
 
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise8.2.html) - 2.เขียนฟังก์ชันที่ checkSpam โดยถ้าข้อความดังกล่าวมีคำว่า “xxx” หรือ “viagra” ให้คืนค่าเป็น true ถ้าไม่มีให้คืนค่าเป็น false
+* [exercise-08.2](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise8.2.html) - 2.เขียนฟังก์ชันที่ checkSpam โดยถ้าข้อความดังกล่าวมีคำว่า “xxx” หรือ “viagra” ให้คืนค่าเป็น true ถ้าไม่มีให้คืนค่าเป็น false
 
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise8.3.html) - 3.เขียนฟังก์ชันที่ truncate(str, maxlength) โดยฟังก์ชันดังกล่าวจะเช็คว่า string 
+* [exercise-08.3](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise8.3.html) - 3.เขียนฟังก์ชันที่ truncate(str, maxlength) โดยฟังก์ชันดังกล่าวจะเช็คว่า string 
 ที่ถูกส่งเข้ามามีความยาวเกิน maxlength ไหม ถ้าเกินให้แทน ข้อความต่อจากนั้นด้วย “...”
 
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise8.4.html) - 4.เขียนฟังก์ชันที่ extractCurrencyValue(string, rate) โดยที่ฟังก์ชันดังกล่าวจะแปลง string ที่เป็นค่าเงิน dollar 
+* [exercise-08.4](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise8.4.html) - 4.เขียนฟังก์ชันที่ extractCurrencyValue(string, rate) โดยที่ฟังก์ชันดังกล่าวจะแปลง string ที่เป็นค่าเงิน dollar 
 ให้เป็น number ที่มีค่าเป็นเงินบาทไทย โดยอ้างอิง  rate จาก parameters ตัวที่สอง ที่ส่งมาให้"
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise9.1.html) - "Exercise Array
+* [exercise-09.1](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise9.1.html) - "Exercise Array
 1.ผลลัพธ์ของความยาว array คืออะไร
 
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise9.2.html)
+* [exercise-09.2](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise9.2.html)
 2.ให้ทำตามขั้นตอนต่อไปนี้
 - สร้าง array ชื่อ styles ที่มี items ชื่อ “Jazz” และ “Blues”
 - เพิ่ม “Rock-n-Roll” ต่อท้าย
@@ -82,7 +82,7 @@ Exercise JavaScript
 - นำ items ตัวแรกออกมาและลบ items ตัวนั้นออกจาก array
 - เพิ่ม “Rap” และ “Reggae” ไปข้างหน้าของ Array
 
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise9.3.html) 
+* [exercise-09.3](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise9.3.html) 
 3.เขียนฟังก์ชัน sumInput() ที่
 - ใช้ propmt รับ value มาเก็บใน array
 - หยุดถามเมื่อเจอค่าที่ไม่ใช่ ตัวเลข
@@ -92,15 +92,15 @@ Exercise JavaScript
 4.Maximal contiguous subarray (**Optional**)
 - ให้เขียนฟังก์ชัน getMaxSubSum(arr) ที่ return ผลรวมของ subarray ที่มากที่สุดที่ติดกัน
 
-* [exercise-01]() - "Exercise Methods ของ Array
+* [exercise-10]() - "Exercise Methods ของ Array
 1.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.map()
 2.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.filter()"
-* [exercise-01]() - "Exercise Map และ Set
+* [exercise-11.1]() - "Exercise Map และ Set
 1.ให้ arr เป็น Array สร้าง function ชื่อ unique(arr) ให้คืนค่าเป็น unique items ของ arr
 
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise11.2.html) - 2.Anagram เป็นตัวอักษรที่มีจำนวนตัวอักษรแต่ละตัวที่เท่ากัน แต่เรียงไม่เหมือนกัน ( Optional )
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise11.3.html) - 3.เราได้ array จาก map.keys() แต่ไม่สามารถใช้ push ได้เราจะทำยังไงให้ keys.push สามารถทำงานได้
-* [exercise-01]() - "Exercise Keys, Values และ Entities
+* [exercise-11.2](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise11.2.html) - 2.Anagram เป็นตัวอักษรที่มีจำนวนตัวอักษรแต่ละตัวที่เท่ากัน แต่เรียงไม่เหมือนกัน ( Optional )
+* [exercise-11.3](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise11.3.html) - 3.เราได้ array จาก map.keys() แต่ไม่สามารถใช้ push ได้เราจะทำยังไงให้ keys.push สามารถทำงานได้
+* [exercise-12.1]() - "Exercise Keys, Values และ Entities
 1. กำหนดให้ salaries เป็น Object ให้เขียนฟังก์ชัน sumSalaries(salaries) ที่คืนค่าเป็นผลผมรวมของเงินเดือน 
 ถ้า salaries ไม่มีสมาชิก ให้คืนค่าเป็น 0
-* [exercise-01]() - 2.ให้เขียนฟังก์ชัน count(obj) ที่คืนค่าเป็นจำนวน properties ใน object"
+* [exercise-12.2]() - 2.ให้เขียนฟังก์ชัน count(obj) ที่คืนค่าเป็นจำนวน properties ใน object"
