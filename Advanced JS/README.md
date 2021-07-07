@@ -1,7 +1,7 @@
 Exercise JavaScript
 
-* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise1.html) - 01. "Exercise การเขียน Code แก้ไขการเขียนโค้ดต่อไปนี้
-* [exercise-02](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise2.html) - 
+* [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise1.html) - "Exercise การเขียน Code แก้ไขการเขียนโค้ดต่อไปนี้
+* [exercise-02](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise2.html) 
 "Exercise การสร้าง Object
 1.ให้สร้าง Object แบบ Object Iteral โดยให้กำหนดตัวแปรชื่อ human โดยมี Properties ทั้ง 5 อย่าง
 - ชื่อของผู้เรียน เป็น String
@@ -17,7 +17,7 @@ Exercise JavaScript
 2.ให้เขียนโปรแกรมที่รับค่า key และ value ของ Properties ของ Object หนึ่ง โดยให้ key เป็นชื่อของผลไม้ 
 และ value เป็นจำนวนของผลไม้ (number) โดยถ้า ผลไม้ชนิดไหนที่มีมากกว่า 1 ผล ให้เติม s ไปหลัง key นั้นด้วย"
 * [exercise-04.1](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise4.1.html) - 
-* "Exercise Object
+"Exercise Object
 1.ให้ทำตามคำสั่งต่อไปนี้
 - สร้าง Object เปล่าขึ้นมา
 - เพิ่ม properties name เข้าไปและให้ value เป็น “Sonter”
@@ -30,7 +30,7 @@ Exercise JavaScript
 ถ้ามีให้คืนค่า false ถ้าไม่มีให้คืนค่า true
 
 * [exercise-04.3](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise4.3.html) - 
-* 3.การเขียนข้างล่างต่อไปนี้ Error ไหม
+3.การเขียนข้างล่างต่อไปนี้ Error ไหม
 
 * [exercise-04.4](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise4.4.html) -
 4.จงเขียนฟังก์ชัน sum(obj) ที่รับ obj ที่เก็บ properties โดยมี key เป็นชื่อพนักงานและมี value เป็นเงินเดือน 
@@ -40,7 +40,7 @@ Exercise JavaScript
 5.จงเขียนฟังก์ชัน multiplyNumeric(obj, times) โดยถ้า properties นั้นมี value เป็น number 
 ให้คูณ value นั้นด้วย times ถ้าข้อมูลเเป็นอย่างอื่นไม่ต้องทำอะไร"
 * [exercise-05](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise4.2.html) 
-* "Exercise Methods ของ Object
+"Exercise Methods ของ Object
 1.การทำงานของ code ดังกล่าวจะได้อะไรออกมา 
 * [exercise-01]() - 
 2.การทำงานของ code ดังกล่าวจะได้อะไรออกมา
@@ -83,7 +83,7 @@ Exercise JavaScript
 - เพิ่ม “Rap” และ “Reggae” ไปข้างหน้าของ Array
 
 * [exercise-01](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise9.3.html) 
-* 3.เขียนฟังก์ชัน sumInput() ที่
+3.เขียนฟังก์ชัน sumInput() ที่
 - ใช้ propmt รับ value มาเก็บใน array
 - หยุดถามเมื่อเจอค่าที่ไม่ใช่ ตัวเลข
 - คำนวณผลรวมของตัวเลขทั้งหมดใน Array
