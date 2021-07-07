@@ -101,7 +101,7 @@ Exercise JavaScript
 
 * [exercise-11.2](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise11.2.html) - 2.Anagram เป็นตัวอักษรที่มีจำนวนตัวอักษรแต่ละตัวที่เท่ากัน แต่เรียงไม่เหมือนกัน ( Optional )
 * [exercise-11.3](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise11.3.html) - 3.เราได้ array จาก map.keys() แต่ไม่สามารถใช้ push ได้เราจะทำยังไงให้ keys.push สามารถทำงานได้
-* [exercise-12.1]() - "Exercise Keys, Values และ Entities
+* [exercise-12.1](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise12.1.html) - "Exercise Keys, Values และ Entities
 1. กำหนดให้ salaries เป็น Object ให้เขียนฟังก์ชัน sumSalaries(salaries) ที่คืนค่าเป็นผลผมรวมของเงินเดือน 
 ถ้า salaries ไม่มีสมาชิก ให้คืนค่าเป็น 0
-* [exercise-12.2]() - 2.ให้เขียนฟังก์ชัน count(obj) ที่คืนค่าเป็นจำนวน properties ใน object"
+* [exercise-12.2](https://github.com/sher-n/Homework_codecamp_8/blob/main/Advanced%20JS/exercise12.2.html) - 2.ให้เขียนฟังก์ชัน count(obj) ที่คืนค่าเป็นจำนวน properties ใน object"
