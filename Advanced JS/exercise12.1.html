@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let salaries = {
+            "John": 100,
+            "Pete": 300,
+            "Mary": 250
+        };
+        function sumSalaries(salary) {
+        if (!Object.keys(salary)) {
+             return 0;
+        }
+            let totalSalaries = 0;
+            
+            for (let key in salary) {
+                totalSalaries += salary[key];
+                
+            }
+
+
+            return totalSalaries
+        }
+        alert(sumSalaries(salaries)); // 650
+
+    </script>
+</body>
+
+</html>
