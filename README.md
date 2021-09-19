@@ -14,3 +14,4 @@
 | React | https://github.com/sher-n/Homework_codecamp_8/tree/main/React%20Homework | 
 | Database | https://github.com/sher-n/Homework_codecamp_8/tree/main/Database | 
 | TDD | https://github.com/sher-n/Homework_codecamp_8/tree/main/TDD2 | 
+| RESUME | https://docs.google.com/document/d/1G6-DtvqCKA3WRlpqtrp_-65quQ3QZG5ZLk2C6pLERR4/edit?usp=sharing
